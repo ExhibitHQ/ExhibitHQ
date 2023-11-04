@@ -3,7 +3,39 @@
 @tailwind utilities;
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  cursor: default; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navh {
+  height: 20vh;
+}
+
+.heroh {
+  height: 80vh;
+}
+
+.borderr {
+  border-right: 10px solid #000;
+}
+
+.borderl {
+  border-left: 10px solid #000;
+}
+
+.bordert {
+  border-top: 10px solid #000;
+}
+
+.borderb {
+  border-bottom: 10px solid #000;
 }
